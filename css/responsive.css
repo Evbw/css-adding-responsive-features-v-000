@@ -32,7 +32,14 @@
 }
 
 @media only screen and (max-width: 750px) {
-  body { font-size: 130%; }
+  #navbar nav a {
+    font-size: 0.9em;
+  }
+  .col-3 p {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
 }
 
 @media only screen and (max-width: 700px) {
