@@ -54,5 +54,7 @@
 }
 
 @media only screen and (max-width: 700px) {
-  body { font-size: 130%; }
+  #navbar nav a{
+    display:none;
+  }
 }
